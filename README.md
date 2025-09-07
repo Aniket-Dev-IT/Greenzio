@@ -1,7 +1,7 @@
 # 🌱 Greenzio - Premium Grocery E-Commerce Platform
 
 <div align="center">
-  <img src="Project Snap/homepage.png" alt="Greenzio Homepage" width="800"/>
+  <img src="Project Snap/homepage.jpg" alt="Greenzio Homepage" width="800"/>
 </div>
 
 ## 📋 Table of Contents
@@ -26,6 +26,37 @@
 Greenzio is a sophisticated, full-featured e-commerce platform specifically designed for the grocery industry. Built with modern web technologies and following industry best practices, it provides a seamless shopping experience for customers while offering comprehensive management tools for administrators.
 
 The platform handles everything from product catalog management to order processing, inventory tracking, and customer relationship management, making it a complete solution for grocery businesses of all sizes.
+
+## 🖼 Project Showcase
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="Project Snap/homepage.jpg" alt="Homepage" width="400"/>
+        <br/><strong>🏠 Customer Homepage</strong>
+        <br/><em>Clean, modern design with intuitive navigation</em>
+      </td>
+      <td width="50%" align="center">
+        <img src="Project Snap/product-catalog.jpg" alt="Product Catalog" width="400"/>
+        <br/><strong>🛒 Product Catalog</strong>
+        <br/><em>Advanced filtering and search capabilities</em>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <img src="Project Snap/admin-dashboard.jpg" alt="Admin Dashboard" width="400"/>
+        <br/><strong>🔧 Admin Dashboard</strong>
+        <br/><em>Comprehensive management interface</em>
+      </td>
+      <td width="50%" align="center">
+        <img src="Project Snap/admin-stock-management.jpg" alt="Stock Management" width="400"/>
+        <br/><strong>📊 Inventory Management</strong>
+        <br/><em>Real-time stock tracking and alerts</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## ✨ Key Features
 
@@ -254,12 +285,31 @@ users (1) ←→ (n) cart
 
 ## 📊 Screenshots
 
+### 🏠 Homepage
 <div align="center">
-  <img src="Project Snap/admin-dashboard.png" alt="Admin Dashboard" width="400"/>
-  <img src="Project Snap/product-catalog.png" alt="Product Catalog" width="400"/>
+  <img src="Project Snap/homepage.jpg" alt="Greenzio Homepage - Clean and Modern Design" width="800"/>
+  <p><em>Modern and intuitive homepage design with featured products and categories</em></p>
 </div>
 
-*Additional screenshots available in the `Project Snap/` directory*
+### 🛒 Product Catalog
+<div align="center">
+  <img src="Project Snap/product-catalog.jpg" alt="Product Catalog - Advanced Filtering" width="800"/>
+  <p><em>Advanced product catalog with smart filtering and search capabilities</em></p>
+</div>
+
+### 🔧 Admin Dashboard
+<div align="center">
+  <img src="Project Snap/admin-dashboard.jpg" alt="Admin Dashboard - Product Management" width="800"/>
+  <p><em>Comprehensive admin dashboard for product and inventory management</em></p>
+</div>
+
+### 📊 Stock Management
+<div align="center">
+  <img src="Project Snap/admin-stock-management.jpg" alt="Stock Management Dashboard" width="800"/>
+  <p><em>Advanced stock management system with real-time inventory tracking</em></p>
+</div>
+
+*All screenshots showcase the actual functionality and professional design of the Greenzio platform*
 
 ## 🔒 Security Features
 
