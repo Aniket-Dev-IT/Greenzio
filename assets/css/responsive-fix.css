@@ -1,0 +1,391 @@
+/* ===== RESPONSIVE FIX FOR GREENZIO - PROPER 100% ZOOM OPTIMIZATION ===== */
+
+/* Reset and base responsive settings */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* Base font size for proper scaling */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px; /* Reduced from 0.9rem to 14px for better control */
+    line-height: 1.4; /* Reduced from 1.5 for tighter spacing */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Container optimizations */
+.container-fluid {
+    max-width: 100vw; /* Ensure it never exceeds viewport width */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    max-width: 1200px; /* Reasonable max width */
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Header and Navigation Fixes */
+.top-bar {
+    height: auto !important;
+    min-height: 30px; /* Reduced from 35px */
+    font-size: 12px !important; /* Smaller font size */
+    padding: 5px 0; /* Reduced padding */
+}
+
+.navbar-brand {
+    font-size: 1.3rem !important; /* Reduced from 1.6rem */
+    letter-spacing: 1px !important; /* Reduced from 0.8px */
+}
+
+.navbar-nav .nav-link {
+    font-size: 13px !important; /* Reduced from 0.95rem */
+    padding: 0.4rem 0.6rem !important; /* Reduced padding */
+}
+
+/* Search Bar Optimizations */
+.search-wrapper {
+    min-width: 200px !important; /* Reduced from 250px */
+    max-width: 240px !important; /* Reduced from 280px */
+}
+
+.search-category-select {
+    font-size: 11px !important; /* Reduced font size */
+    max-width: 80px !important; /* Reduced from 120px */
+    padding: 6px 4px !important; /* Reduced padding */
+}
+
+.search-input {
+    font-size: 12px !important; /* Reduced font size */
+    padding: 6px 8px !important; /* Reduced padding */
+}
+
+.search-btn {
+    padding: 6px 10px !important; /* Reduced padding */
+    font-size: 12px !important;
+}
+
+/* Content Area Optimizations */
+.card {
+    margin-bottom: 1rem; /* Reduced margins */
+}
+
+.card-body {
+    padding: 1rem; /* Reduced from default 1.25rem */
+}
+
+/* Button Optimizations */
+.btn {
+    font-size: 13px !important;
+    padding: 0.4rem 0.8rem !important; /* Reduced padding */
+    letter-spacing: 1px !important; /* Reduced from 2px */
+}
+
+/* Typography Fixes */
+h1 {
+    font-size: 1.8rem !important; /* Reduced from 2.5rem */
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.5rem !important; /* Reduced from 2rem */
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.3rem !important; /* Reduced from 1.75rem */
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 1.1rem !important; /* Reduced from 1.5rem */
+    line-height: 1.4;
+}
+
+h5 {
+    font-size: 1rem !important; /* Reduced from 1.25rem */
+    line-height: 1.4;
+}
+
+h6 {
+    font-size: 0.9rem !important; /* Reduced from 1rem */
+    line-height: 1.4;
+}
+
+/* Spacing Optimizations */
+.py-7 {
+    padding-top: 3rem !important; /* Reduced from 5rem */
+    padding-bottom: 3rem !important; /* Reduced from 5rem */
+}
+
+.mt-8 {
+    margin-top: 4rem !important; /* Reduced from 8rem */
+}
+
+/* Grid and Layout Fixes */
+.row {
+    margin-left: -10px; /* Reduced from -15px */
+    margin-right: -10px; /* Reduced from -15px */
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+[class*="col-"] {
+    padding-left: 10px; /* Reduced from 15px */
+    padding-right: 10px; /* Reduced from 15px */
+}
+
+/* Product Cards Optimization */
+.product-card {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-title {
+    font-size: 14px !important;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+.product-price {
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+/* Form Controls */
+.form-control {
+    font-size: 13px !important;
+    padding: 0.4rem 0.6rem !important; /* Reduced padding */
+}
+
+.form-group {
+    margin-bottom: 0.8rem; /* Reduced from 1rem */
+}
+
+/* Modal Optimizations */
+.modal-dialog {
+    max-width: 90% !important;
+    margin: 1.5rem auto !important; /* Reduced margin */
+}
+
+.modal-content {
+    padding: 1rem; /* Reduced padding */
+}
+
+.modal-title {
+    font-size: 1.2rem !important; /* Reduced size */
+}
+
+/* Responsive Breakpoint Adjustments */
+
+/* Large screens (1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px; /* Slightly reduced */
+    }
+    
+    .navbar-brand {
+        font-size: 1.4rem !important;
+    }
+    
+    .search-wrapper {
+        max-width: 280px !important;
+    }
+}
+
+/* Medium screens (992px to 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.3rem !important;
+    }
+    
+    .search-wrapper {
+        max-width: 240px !important;
+    }
+    
+    .search-category-select {
+        max-width: 70px !important;
+        font-size: 10px !important;
+    }
+}
+
+/* Small screens (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem !important;
+    }
+    
+    .navbar-nav .nav-link {
+        font-size: 12px !important;
+        padding: 0.3rem 0.5rem !important;
+    }
+    
+    .top-bar {
+        font-size: 11px !important;
+        padding: 3px 0;
+    }
+}
+
+/* Extra small screens (up to 767px) */
+@media (max-width: 767px) {
+    .container-fluid {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.1rem !important;
+    }
+    
+    .top-bar {
+        font-size: 10px !important;
+        padding: 2px 0;
+        text-align: center;
+    }
+    
+    .search-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
+    
+    .search-form .input-group {
+        border-radius: 15px !important;
+    }
+    
+    .btn {
+        font-size: 12px !important;
+        padding: 0.3rem 0.6rem !important;
+    }
+    
+    h1 { font-size: 1.5rem !important; }
+    h2 { font-size: 1.3rem !important; }
+    h3 { font-size: 1.1rem !important; }
+    h4 { font-size: 1rem !important; }
+    h5 { font-size: 0.9rem !important; }
+    h6 { font-size: 0.85rem !important; }
+}
+
+/* Prevent content overflow */
+img, video, iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Table responsiveness */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table {
+    font-size: 13px !important;
+}
+
+.table td, .table th {
+    padding: 0.5rem !important; /* Reduced from 0.75rem */
+}
+
+/* Fix for any fixed width elements */
+[style*="width"] {
+    max-width: 100% !important;
+}
+
+/* Carousel optimizations */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Footer optimizations */
+footer {
+    font-size: 13px !important;
+    padding: 1.5rem 0 !important; /* Reduced padding */
+}
+
+/* Utilities for common spacing issues */
+.no-overflow {
+    overflow: hidden !important;
+}
+
+.full-width {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Ensure dropdowns don't cause overflow */
+.dropdown-menu {
+    max-width: 280px;
+    font-size: 13px;
+}
+
+.dropdown-item {
+    padding: 0.4rem 1rem; /* Reduced padding */
+    font-size: 13px;
+}
+
+/* Print optimizations */
+@media print {
+    body {
+        font-size: 12px !important;
+    }
+    
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* High DPI screen optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus management for better UX */
+:focus {
+    outline: 2px solid #28a745;
+    outline-offset: 2px;
+}
+
+button:focus,
+.btn:focus {
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.25);
+}
+
+/* Final catch-all for oversized content */
+body * {
+    max-width: 100% !important;
+}

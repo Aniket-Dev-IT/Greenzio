@@ -1,0 +1,113 @@
+# Greenzio Project - Git Ignore Configuration
+
+# Application cache and logs
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+# Session files
+application/sessions/*
+!application/sessions/index.html
+!application/sessions/.htaccess
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+/nbproject/
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.tmp
+*~
+
+# Composer
+vendor/
+composer.phar
+composer.lock
+
+# Node.js (if using)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files (if any local SQLite)
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded files (exclude from git but keep structure)
+uploads/
+!uploads/.htaccess
+!uploads/index.html
+
+# Testing
+phpunit.xml
+.phpunit.result.cache
+/tests/_output/*
+/tests/tests/
+/tests/results/
+
+# CodeIgniter specific
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# Miscellaneous
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Configuration files with sensitive data (uncomment if needed)
+# application/config/database.php
+# application/config/config.php
