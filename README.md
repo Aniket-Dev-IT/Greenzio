@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌱 **Greenzio** - Premium Grocery E-Commerce Platform
+# 🌱 **Greenzio** - Grocery E-Commerce Platform
 
 ### *Your One-Stop Solution for Modern Grocery Business Management*
 
@@ -20,7 +20,7 @@
 
 **Greenzio** is a sophisticated, full-featured e-commerce platform specifically designed for the grocery industry. Built with modern web technologies and following industry best practices, it provides a seamless shopping experience for customers while offering comprehensive management tools for administrators.
 
-The platform handles everything from product catalog management to order processing, inventory tracking, and customer relationship management, making it a complete solution for grocery businesses of all sizes.
+The platform handles everything from product catalogue management to order processing, inventory tracking, and customer relationship management, making it a complete solution for grocery businesses of all sizes.
 
 ### 🌟 **Why Choose Greenzio?**
 
@@ -172,35 +172,7 @@ server {
 }
 ```
 
-## 📁 Project Structure
 
-```
-Greenzio/
-├── 📂 application/
-│   ├── 📂 controllers/      # MVC Controllers
-│   │   ├── Admin.php        # Admin panel controller
-│   │   ├── Shop.php         # Main shopping controller
-│   │   ├── User.php         # User management
-│   │   └── Shopping.php     # Cart & checkout
-│   ├── 📂 models/          # Data models
-│   │   ├── Products.php     # Product management
-│   │   ├── Cart.php         # Shopping cart
-│   │   └── Adminmodel.php   # Admin operations
-│   ├── 📂 views/           # Template files
-│   │   ├── 📂 admin/        # Admin interface
-│   │   ├── 📂 main/         # Customer interface
-│   │   └── 📂 pages/        # Content pages
-│   └── 📂 config/          # Configuration files
-├── 📂 assets/              # Frontend resources
-│   ├── 📂 css/             # Stylesheets
-│   ├── 📂 js/              # JavaScript files
-│   └── 📂 images/          # Image assets
-├── 📂 database/            # Database files
-│   ├── greenzio_schema.sql # Database structure
-│   └── greenzio_data.sql   # Sample data
-├── 📂 Project Snap/        # Screenshots
-└── 📄 Documentation files
-```
 
 ## 🗃 Database Schema
 
