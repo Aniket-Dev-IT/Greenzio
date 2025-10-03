@@ -18,11 +18,6 @@
 
 ---
 
-<div align="center">
-  <img src="Project Snap/Home + Products Page.png" alt="Greenzio - Home & Product Pages" width="800"/>
-  <p><em>🏠 Homepage & 🛒 Product Catalog - Complete Customer Experience</em></p>
-</div>
-
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
