@@ -1,7 +1,26 @@
-# 🌱 Greenzio - Premium Grocery E-Commerce Platform
+<div align="center">
+
+# 🌱 **Greenzio** - Premium Grocery E-Commerce Platform
+
+### *Your One-Stop Solution for Modern Grocery Business Management*
+
+[![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![CodeIgniter](https://img.shields.io/badge/CodeIgniter-3.1.13-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)](https://codeigniter.com)
+[![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-4.5+-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#license)
+[![GitHub Stars](https://img.shields.io/github/stars/Aniket-Dev-IT/Greenzio?style=for-the-badge&color=gold)](https://github.com/Aniket-Dev-IT/Greenzio)
+[![GitHub Forks](https://img.shields.io/github/forks/Aniket-Dev-IT/Greenzio?style=for-the-badge&color=blue)](https://github.com/Aniket-Dev-IT/Greenzio/network/members)
+
+---
+
+### 🚀 **Live Demo** | 📖 **Documentation** | 🐛 **Report Bug** | 💡 **Request Feature**
+
+---
 
 <div align="center">
-  <img src="Project Snap/homepage.jpg" alt="Greenzio Homepage" width="800"/>
+  <img src="Project Snap/Home + Products Page.png" alt="Greenzio - Home & Product Pages" width="800"/>
+  <p><em>🏠 Homepage & 🛒 Product Catalog - Complete Customer Experience</em></p>
 </div>
 
 ## 📋 Table of Contents
@@ -27,35 +46,37 @@ Greenzio is a sophisticated, full-featured e-commerce platform specifically desi
 
 The platform handles everything from product catalog management to order processing, inventory tracking, and customer relationship management, making it a complete solution for grocery businesses of all sizes.
 
-## 🖼 Project Showcase
+## 🖼 **Project Showcase**
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <img src="Project Snap/homepage.jpg" alt="Homepage" width="400"/>
-        <br/><strong>🏠 Customer Homepage</strong>
-        <br/><em>Clean, modern design with intuitive navigation</em>
-      </td>
-      <td width="50%" align="center">
-        <img src="Project Snap/product-catalog.jpg" alt="Product Catalog" width="400"/>
-        <br/><strong>🛒 Product Catalog</strong>
-        <br/><em>Advanced filtering and search capabilities</em>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center">
-        <img src="Project Snap/admin-dashboard.jpg" alt="Admin Dashboard" width="400"/>
-        <br/><strong>🔧 Admin Dashboard</strong>
-        <br/><em>Comprehensive management interface</em>
-      </td>
-      <td width="50%" align="center">
-        <img src="Project Snap/admin-stock-management.jpg" alt="Stock Management" width="400"/>
-        <br/><strong>📊 Inventory Management</strong>
-        <br/><em>Real-time stock tracking and alerts</em>
-      </td>
-    </tr>
-  </table>
+
+### 🌟 **Experience the Full Platform**
+
+<img src="Project Snap/Home + Products Page.png" alt="Greenzio Complete Experience" width="900"/>
+<p><strong>🏠 Homepage & 🛒 Product Catalog Integration</strong></p>
+<em>Seamless customer journey from browsing to shopping</em>
+
+---
+
+### 🔧 **Powerful Admin Management**
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Project Snap/Admin Product Management.jpeg" alt="Product Management" width="450"/>
+      <br/><br/>
+      <strong>📦 Product Management Dashboard</strong>
+      <br/><em>Complete inventory control with bulk operations</em>
+    </td>
+    <td width="50%" align="center">
+      <img src="Project Snap/Admin Stock Management Dashboard.jpeg" alt="Stock Management" width="450"/>
+      <br/><br/>
+      <strong>📊 Stock Management System</strong>
+      <br/><em>Real-time inventory tracking and analytics</em>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 ## ✨ Key Features
@@ -283,33 +304,37 @@ users (1) ←→ (n) cart
 - **Analytics Dashboard**: Sales metrics, performance indicators
 - **System Configuration**: Settings, maintenance mode
 
-## 📊 Screenshots
+## 📸 **Detailed Screenshots Gallery**
 
-### 🏠 Homepage
 <div align="center">
-  <img src="Project Snap/homepage.jpg" alt="Greenzio Homepage - Clean and Modern Design" width="800"/>
-  <p><em>Modern and intuitive homepage design with featured products and categories</em></p>
-</div>
 
-### 🛒 Product Catalog
-<div align="center">
-  <img src="Project Snap/product-catalog.jpg" alt="Product Catalog - Advanced Filtering" width="800"/>
-  <p><em>Advanced product catalog with smart filtering and search capabilities</em></p>
-</div>
+### 🏠 **Complete Customer Experience**
+<img src="Project Snap/Home + Products Page.png" alt="Greenzio - Homepage and Product Pages" width="850"/>
+<p><strong>Integrated Homepage & Product Catalog</strong></p>
+<em>🌟 Modern design showcasing the complete customer shopping journey</em>
 
-### 🔧 Admin Dashboard
-<div align="center">
-  <img src="Project Snap/admin-dashboard.jpg" alt="Admin Dashboard - Product Management" width="800"/>
-  <p><em>Comprehensive admin dashboard for product and inventory management</em></p>
-</div>
+---
 
-### 📊 Stock Management
-<div align="center">
-  <img src="Project Snap/admin-stock-management.jpg" alt="Stock Management Dashboard" width="800"/>
-  <p><em>Advanced stock management system with real-time inventory tracking</em></p>
-</div>
+### 🔧 **Advanced Admin Controls**
 
-*All screenshots showcase the actual functionality and professional design of the Greenzio platform*
+#### 📦 **Product Management Interface**
+<img src="Project Snap/Admin Product Management.jpeg" alt="Admin Product Management Dashboard" width="800"/>
+<p><em>Comprehensive product management with advanced filtering and bulk operations</em></p>
+
+#### 📊 **Stock Management Dashboard** 
+<img src="Project Snap/Admin Stock Management Dashboard.jpeg" alt="Stock Management System" width="800"/>
+<p><em>Real-time inventory tracking with detailed analytics and reporting</em></p>
+
+---
+
+<h3>✨ <strong>Key Visual Features Highlighted</strong></h3>
+
+🎨 **Professional UI Design** • 📱 **Responsive Layout** • 🎯 **User-Friendly Navigation**  
+📊 **Advanced Analytics** • ⚡ **Fast Performance** • 🔒 **Secure Interface**
+
+*Screenshots demonstrate actual platform functionality and professional design quality*
+
+</div>
 
 ## 🔒 Security Features
 
@@ -351,34 +376,176 @@ This software is proprietary and confidential. Unauthorized copying, distributio
 
 **Violation of these terms may result in legal action.**
 
-## 👨‍💻 Developer Information
+## 👨‍💻 **Meet the Developer**
 
-**Lead Developer**: Aniket Kumar  
-**Email**: aniket.kumar.devpro@gmail.com  
-**GitHub**: [@DevAniketIT](https://github.com/DevAniketIT)  
-**LinkedIn**: [Connect with Developer](https://linkedin.com/in/aniket-kumar-devpro)
+<div align="center">
+  <img src="https://github.com/Aniket-Dev-IT.png" alt="Aniket Kumar" width="120" style="border-radius: 50%;" />
+  
+  ### **Aniket Kumar**
+  *Full-Stack Developer & Software Engineer*
+  
+  [![Profile Views](https://komarev.com/ghpvc/?username=Aniket-Dev-IT&color=brightgreen&style=for-the-badge)](https://github.com/Aniket-Dev-IT)
+  [![GitHub Followers](https://img.shields.io/github/followers/Aniket-Dev-IT?style=for-the-badge&color=blue)](https://github.com/Aniket-Dev-IT?tab=followers)
+</div>
 
-### Development Standards
-- **Code Quality**: PSR-2 coding standards
-- **Version Control**: Git with semantic versioning
-- **Testing**: Unit and integration testing protocols
-- **Documentation**: Comprehensive inline documentation
-- **Security**: Regular security audits and updates
+---
 
-### Project Statistics
-- **Lines of Code**: 15,000+
-- **Development Time**: 6+ months
-- **Last Updated**: September 2025
-- **Version**: 2.0.0
+### 🎯 **Professional Experience**
+- 🏆 **Specialization**: Full-Stack Web Development, E-Commerce Solutions
+- 💼 **Experience**: 5+ years in PHP, MySQL, JavaScript, and Modern Web Technologies
+- 🎓 **Expertise**: CodeIgniter, Laravel, React, Node.js, Database Design
+- 🌟 **Focus**: Creating scalable, secure, and user-friendly web applications
+
+### 📈 **Project Statistics**
+- 📝 **Lines of Code**: 15,000+
+- ⏱️ **Development Time**: 6+ months of dedicated development
+- 🔄 **Last Updated**: October 2025
+- 📦 **Version**: 2.0.0
+- 🚀 **Status**: Production Ready
+
+### 🛠️ **Development Standards**
+- ✅ **Code Quality**: PSR-2 coding standards with clean architecture
+- 🔄 **Version Control**: Git with semantic versioning
+- 🧪 **Testing**: Comprehensive unit and integration testing
+- 📚 **Documentation**: Detailed inline documentation
+- 🔒 **Security**: Regular security audits and vulnerability assessments
+
+---
+
+## 📞 **Get In Touch**
+
+<div align="center">
+
+### 🤝 **Let's Connect & Collaborate!**
+
+I'm always open to discussing new opportunities, collaborating on interesting projects, or just having a chat about technology!
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="mailto:aniket.kumar.devpro@gmail.com">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+      </a>
+      <br/>
+      <strong>📧 aniket.kumar.devpro@gmail.com</strong>
+    </td>
+    <td align="center">
+      <a href="https://wa.me/918318601925">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+      </a>
+      <br/>
+      <strong>📱 +91 8318601925</strong>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Aniket-Dev-IT">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+      </a>
+      <br/>
+      <strong>🐙 @Aniket-Dev-IT</strong>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🌐 **Professional Networks**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aniket-kumar-devpro)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AniketDevIT)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/aniket-dev)
+[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/aniketdevit)
+
+</div>
+
+---
+
+## 🤝 **Contributing**
+
+<div align="center">
+
+### **Interested in Contributing?**
+
+*I welcome contributions, issues, and feature requests!*
+
+[![Contributors](https://img.shields.io/github/contributors/Aniket-Dev-IT/Greenzio?style=for-the-badge)](https://github.com/Aniket-Dev-IT/Greenzio/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/Aniket-Dev-IT/Greenzio?style=for-the-badge)](https://github.com/Aniket-Dev-IT/Greenzio/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/Aniket-Dev-IT/Greenzio?style=for-the-badge)](https://github.com/Aniket-Dev-IT/Greenzio/pulls)
+
+</div>
+
+### 📝 **How to Contribute**
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** your feature branch (`git checkout -b feature/amazing-feature`)
+3. 💾 **Commit** your changes (`git commit -m 'Add some amazing feature'`)
+4. 📤 **Push** to the branch (`git push origin feature/amazing-feature`)
+5. 🔀 **Open** a Pull Request
+
+### 🐛 **Found a Bug?**
+- Check if the issue already exists in our [Issues](https://github.com/Aniket-Dev-IT/Greenzio/issues)
+- If not, feel free to [create a new issue](https://github.com/Aniket-Dev-IT/Greenzio/issues/new)
+- Include detailed steps to reproduce the bug
+
+### 💡 **Have an Idea?**
+- Open a [feature request](https://github.com/Aniket-Dev-IT/Greenzio/issues/new) with the label "enhancement"
+- Describe your idea in detail
+- Explain why this feature would be beneficial
+
+---
+
+## 💖 **Support the Project**
+
+<div align="center">
+
+If you find this project helpful, please consider:
+
+⭐ **Starring** the repository  
+🍴 **Forking** for your own experiments  
+🐛 **Reporting** any issues you find  
+💌 **Sharing** with fellow developers  
+
+### **Show Your Support**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Aniket-Dev-IT/Greenzio&type=Date)](https://star-history.com/#Aniket-Dev-IT/Greenzio&Date)
+
+*Every star motivates me to create better projects!* ⭐
+
+</div>
+
+---
+
+## 🙏 **Acknowledgments**
+
+- 🎨 **Bootstrap Team** - For the amazing UI framework
+- 🔥 **CodeIgniter** - For the robust PHP framework
+- 🗃️ **MySQL** - For reliable database management
+- 🌟 **Font Awesome** - For beautiful icons
+- 📊 **Chart.js** - For interactive charts
+- 🚀 **All Contributors** - For making this project better
+- ☕ **Coffee** - For fueling late-night coding sessions
 
 ---
 
 <div align="center">
-  <h3>🌱 Greenzio - Fresh Groceries Delivered with Technology Excellence</h3>
-  <p><em>Built with passion for quality code and exceptional user experience</em></p>
-  
-  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/DevAniketIT/Greenzio)
-  [![PHP](https://img.shields.io/badge/PHP-7.4+-purple?style=for-the-badge&logo=php)](https://php.net)
-  [![MySQL](https://img.shields.io/badge/MySQL-5.7+-orange?style=for-the-badge&logo=mysql)](https://mysql.com)
-  [![CodeIgniter](https://img.shields.io/badge/CodeIgniter-3.1.13-red?style=for-the-badge&logo=codeigniter)](https://codeigniter.com)
+
+## 🌱 **Greenzio - Where Technology Meets Fresh Groceries**
+
+*Built with ❤️ by [Aniket Kumar](https://github.com/Aniket-Dev-IT)*
+
+**"Delivering excellence through code, one commit at a time."**
+
+---
+
+### 📊 **GitHub Statistics**
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aniket-Dev-IT&layout=compact&theme=radical)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aniket-Dev-IT&show_icons=true&theme=radical)
+
+---
+
+**© 2025 Aniket Kumar. All rights reserved.**
+
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/Aniket-Dev-IT)
+[![Powered by Coffee](https://img.shields.io/badge/Powered%20by-☕-brown?style=for-the-badge)](https://github.com/Aniket-Dev-IT)
+
 </div>
