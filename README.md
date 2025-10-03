@@ -20,7 +20,7 @@
 
 **Greenzio** is a sophisticated, full-featured e-commerce platform specifically designed for the grocery industry. Built with modern web technologies and following industry best practices, it provides a seamless shopping experience for customers while offering comprehensive management tools for administrators.
 
-The platform handles everything from product catalogue management to order processing, inventory tracking, and customer relationship management, making it a complete solution for grocery businesses of all sizes.
+The platform handles everything from product catalog management to order processing, inventory tracking, and customer relationship management, making it a complete solution for grocery businesses of all sizes.
 
 ### 🌟 **Why Choose Greenzio?**
 
